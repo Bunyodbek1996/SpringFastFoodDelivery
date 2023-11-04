@@ -31,10 +31,6 @@ import org.springframework.context.annotation.Configuration;
         ),
         servers = {
                 @Server(
-                        description = "Production",
-                        url = "http://91.213.99.156:9091"
-                ),
-                @Server(
                         description = "Local Development",
                         url = "http://localhost:9091"
                 )
